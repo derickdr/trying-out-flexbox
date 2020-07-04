@@ -1,0 +1,120 @@
+@import url(reset.css);
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #FFFAFA;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 1.5em 0em 0em 0em;
+}
+
+h2 {
+    font-family: "Open Sans Condensed", sans-serif;
+    color: #B6B3C7;
+    font-size: 2em;
+    margin: 0em 0em 1em 0em;
+}
+
+h3 {
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+/* Content */
+
+.row {
+    width: 100%;
+    min-height: 12em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0em 0em 7.5em 0em;
+}
+
+.bio {
+    display: block;
+    padding: 13.5em;
+    min-height: 90vh;
+}
+
+.section-header {
+    font-size: 4em;
+}
+
+.experience, .education {
+    width: 50%;
+}
+
+.skills {
+    padding: 18em;
+}
+
+.list {
+    padding: 0.2em;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.contact-information {
+    padding: 15em;
+}
+
+.contact:hover {
+    color: #B6B3C7;
+    transition: all 0.3s ease-out;
+}
+
+i {
+    font-size: 3em;
+}
+
+/* Schools */
+
+.location {
+    padding-top: 0em;
+    font-size: 1em;
+}
+
+.location:hover {
+    padding-top: 0em;
+    font-size: 1em;
+    color: #B6B3C7;
+    transition: all 0.3s ease-out;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000000;
+    transition: all 0.3s ease-out;
+}
+  
+a:visited {
+    color: #000000;
+    transition: all 0.3s ease-out;
+}
+  
+a:hover, a:active {
+    text-decoration: underline;
+    color: #B6B3C7;
+}
+
+/* Banner */
+
+img {
+    max-width: 50em;
+    height: auto;
+    padding: 10em 0em 10em 0em;
+}
